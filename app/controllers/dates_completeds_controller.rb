@@ -1,0 +1,2 @@
+class DatesCompletedsController < ApplicationController
+end

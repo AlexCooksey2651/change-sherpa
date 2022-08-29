@@ -1,0 +1,2 @@
+class DatesCompleted < ApplicationRecord
+end
