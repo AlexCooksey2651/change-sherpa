@@ -7,9 +7,11 @@ const AddNew = () => {
   const [form, setForm] = useState('habit')
 
   return (
-    <Container id='add-new-form'>
-      <Button onClick={() => setForm('habit')}>Add New Habit</Button>
-      <Button onClick={() => setForm('goal')}>Add New Goal</Button>
+    <Container id='add-new-form' className="text-align-center">
+      <div id='form-buttons'>
+        <Button variant="success" id='add-habit-btn' onClick={() => setForm('habit')}>Add New Habit</Button>
+        <Button variant="success" id='add-goal-btn' onClick={() => setForm('goal')}>Add New Goal</Button>
+      </div>
       {(form === 'habit') ? <NewHabitForm /> : <NewGoalForm />}
     </Container>
   )

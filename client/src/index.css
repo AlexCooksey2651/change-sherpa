@@ -5,9 +5,40 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://travel.home.sndimg.com/content/dam/images/travel/fullset/2012/08/24/a0/us-hiking-trails_ss_001.rend.hgtvcom.966.725.suffix/1491580965291.jpeg");
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#form-buttons {
+  text-align: center;
+  padding: 5px;
+}
+
+#add-habit-btn, #add-goal-btn {
+  margin: 20px;
+  background-color: darkslateblue
+}
+
+#home-text, #new-habit-form, #new-goal-form, #profile-container {
+  font-size: 14px;
+  background-color: whitesmoke;
+  padding: 10px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-radius: 1%
+}
+
+#home-text-header {
+  text-align: center;
+}
+
+#navbar {
+  background-color: darkcyan;
+  color: white;
 }

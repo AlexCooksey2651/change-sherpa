@@ -1,8 +1,20 @@
 import React from 'react'
+import { Container, ListGroup } from 'react-bootstrap'
 
-const Profile = () => {
+
+interface UserProps {
+  name: string;
+  email: string;
+}
+
+const Profile = (user: UserProps) => {
   return (
-    <div>Page</div>
+    <Container id="profile-container">
+      <ListGroup variant="flush">
+        <ListGroup.Item><b>Name:</b> {user.name}</ListGroup.Item>
+        <ListGroup.Item><b>Email Address:</b> {user.email}</ListGroup.Item>
+      </ListGroup>
+    </Container>
   )
 }
 

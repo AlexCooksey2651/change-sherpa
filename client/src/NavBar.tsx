@@ -3,9 +3,9 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 
 const NavBar = () => {
   return (
-    <Navbar>
+    <Navbar id="navbar" className="justify-content-end">
         <Navbar.Brand href="/home">Sherpa</Navbar.Brand>
-        <Nav className='ml-auto'>
+        <Nav >
             <Nav.Link href='/habits'>Habits</Nav.Link>
             <Nav.Link href='/goals'>Goals</Nav.Link>
             <Nav.Link href='/add-new'>Add New</Nav.Link>

@@ -11,7 +11,7 @@ const NewGoalForm = () => {
   const [behaviors, setBehaviors] = useState('');
   const [challenges, setChallenges] = useState('');
   const [resources, setResources] = useState('');
-  
+
 
 
   return (
@@ -80,7 +80,7 @@ const NewGoalForm = () => {
           <Form.Control as="textarea" rows={3} placeholder="Think about any people, tools, or other resources that could make it easier to reach your goal. What can help you stay motivated and encourage accountability?" />
         </Form.Group>
 
-        <Button id="submit-new-goal-btn" type="submit">Submit</Button>
+        <Button variant="success" id="submit-new-goal-btn" type="submit">Submit</Button>
       </Form>
     </Container>
   )

@@ -63,7 +63,7 @@ const NewHabitForm = () => {
           <Form.Control as="textarea" rows={3} placeholder="What do you need to do to prepare? Are there any skills you need to learn? Do you need to purchase anything or seek out any resources?" value={prepSteps} onChange={e => setPrepSteps(e.target.value)}/>
         </Form.Group>
 
-        <Button id="submit-new-habit-btn" type="submit">Submit</Button>
+        <Button variant="success" id="submit-new-habit-btn" type="submit">Submit</Button>
       </Form>
     </Container>
   )
