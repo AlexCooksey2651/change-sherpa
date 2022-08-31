@@ -29,7 +29,6 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      {/* <h1>Page Count: {count}</h1> */}
       <Routes>
         <Route path="/home" element={<Home />}/>
         <Route path="/add-new" element={<AddNew />} />
