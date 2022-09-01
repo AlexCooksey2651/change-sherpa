@@ -9,6 +9,7 @@ class CreateHabits < ActiveRecord::Migration[6.1]
       t.text :obstacles
       t.text :backup_plan
       t.string :preparation_steps
+      t.boolean :is_active
 
       t.timestamps
     end
