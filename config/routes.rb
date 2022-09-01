@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   delete '/logout', to: 'sessions#destroy'
   get '/me', to: 'users#show'
   patch 'habits/:id', to 'habits#update'
-  patch '/habits/:id/activate', to 'habits#activate'
+  patch '/habits/:id/activate', to 'habits#reactivate'
   patch '/habits/:id/deactivate', to 'habits#deactivate'
   patch 'goals/:id', to 'goals#update'
   patch 'goals/:id/mark-complete', to 'goals#mark_complete'
