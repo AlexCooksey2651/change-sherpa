@@ -24,7 +24,7 @@ code {
   background-color: darkslateblue
 }
 
-#home-text, #new-habit-form, #new-goal-form, #profile-container, #login-form, #signup-form {
+#home-text, #new-habit-form, #new-goal-form, #profile-container, #login-form, #signup-form, #habit-card-page, #goal-card-page {
   font-size: 14px;
   background-color: whitesmoke;
   padding: 10px;

@@ -3,7 +3,7 @@ import { Container, Card, Button } from 'react-bootstrap';
 import HabitCard from '../components/habits/HabitCard';
 
 const Habits = () => {
-  const habits = [{id: 1, habit_description: "I want to eat more vegetables", is_active: true}];
+  const habits = [{id: 1, habit_description: "I want to eat more vegetables", number_days: 3, priority: 'medium', action_plan: 'drink smoothie with spinach for breakfast', obstacles: 'need to remember to buy spinach', backup_plan: 'buy smoothie at bodega on the way to work', preparation_steps: 'buy a blender', is_active: true}];
   
   const activeHabits = habits.filter(habit => habit.is_active === true)
   const activeHabitCards = activeHabits.map(habit => <HabitCard key={habit.id} habit={habit} />)
